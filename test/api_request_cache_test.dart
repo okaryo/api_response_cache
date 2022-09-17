@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:api_request_cache/api_request_cache.dart';
+import 'package:api_response_cache/api_response_cache.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('api_request_cache');
+  const MethodChannel channel = MethodChannel('api_response_cache');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await ApiRequestCache.platformVersion, '42');
+    expect(await ApiResponseCache.platformVersion, '42');
   });
 }

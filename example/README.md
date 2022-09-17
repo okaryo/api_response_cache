@@ -1,6 +1,6 @@
-# api_request_cache_example
+# api_response_cache_example
 
-Demonstrates how to use the api_request_cache plugin.
+Demonstrates how to use the api_response_cache plugin.
 
 ## Getting Started
 

@@ -7,8 +7,8 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class ApiRequestCache {
-  static const MethodChannel _channel = MethodChannel('api_request_cache');
+class ApiResponseCache {
+  static const MethodChannel _channel = MethodChannel('api_response_cache');
 
   static Future<String?> get platformVersion async {
     final String? version = await _channel.invokeMethod('getPlatformVersion');

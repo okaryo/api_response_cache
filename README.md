@@ -1,4 +1,4 @@
-# api_request_cache
+# api_response_cache
 
 A new flutter plugin project.
 

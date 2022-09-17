@@ -1,4 +1,4 @@
-name: api_request_cache
+name: api_response_cache
 description: A new flutter plugin project.
 version: 0.0.1
 homepage:
